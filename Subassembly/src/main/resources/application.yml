@@ -1,0 +1,28 @@
+# 应用名称
+server:
+  application:
+    name:Subassembly
+  port: 8088
+
+#ES
+#spring.data.elasticsearch.cluster-name=cbry
+
+#spring.data.elasticsearch.cluster-nodes=127.0.0.1:9300
+
+
+#jdbc
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://localhost:3306/cbry?useUnicode=ture&characterEncoding=UTF-8&serverTimezone=GMT%2B8&characterEncoding=utf-8
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Drivercom.mysql.cj.jdbc.Driver
+
+#mybatis
+#mybatismybatis.config-location=classpath:mybatis/mybatis-config.xml
+#mybatis.mapper-locations=classpath:mapper/*.xml
+
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml

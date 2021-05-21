@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cbry.mybatis.OrderDao">
+
+	<!-- 自定义某个 javaBean 的封装规则 type：自定义规则中JavaBean类型的全路径，可用别名 id:唯一id方便引用 -->
+	<resultMap id="orderSimpleMap"
+		type="com.cbry.mybatis.OrderBean">
+		<!--  主键映射 -->
+		<id property="orderId" column="order_id" />
+		<!--  属性映射 ,property是javaBean种的属性 -->
+		<result property="orderName" column="order_name" />
+		<result property="orderCity" column="order_city" />
+		<result property="orderPrice" column="order_price" />
+	</resultMap>
+
+	<resultMap id="orderMap" type="com.cbry.mybatis.OrderBean">
+		<!--  主键映射 -->
+		<id property="orderId" column="order_id" />
+		<!--  属性映射 ,property是javaBean种的属性 -->
+		<result property="orderName" column="order_name" />
+		<result property="orderCity" column="order_city" />
+		<result property="orderPrice" column="order_price" />
+		<!-- property指的是resultMap所映射的type -->
+		<association property="customer"
+			javaType="com.cbry.mybatis.CustomerBean">
+			<id property="cId" column="cid" />
+			<result property="cName" column="cname" />
+			<result property="cAge" column="cage" />
+		</association>
+	</resultMap>
+
+	<resultMap id="orderCustomerMap"
+		type="com.cbry.mybatis.CustomerBean">
+		<id property="cId" column="cid" />
+		<result property="cName" column="cname" />
+		<result property="cAge" column="cage" />
+	</resultMap>
+
+	<!-- 定义select语句，CustomerMapper接口中的find()方法会执行该SQL，查询结果通过customerSimpleMap这个映射生成Customer对象 -->
+	<select id="findSimpleOrderInfo" resultMap="orderSimpleMap">
+		SELECT * FROM
+		order_info WHERE order_id = #{orderId}
+	</select>
+
+	<select id="findCustomerById" resultMap="orderCustomerMap">
+		SELECT * FROM
+		customer_info WHERE cid = #{customerId}
+	</select>
+
+	<select id="findOrderInfo" resultMap="orderMap">
+		SELECT a.*,b.* FROM
+		order_info as a join customer_info as b on a.cid = b.cid
+		WHERE order_id
+		= #{orderId}
+	</select>
+	
+	<insert id="insertOrderInfo">
+		insert into customer_info values(#{cid} , #{cname} ,#{cage})
+	</insert>
+</mapper>
