@@ -30,7 +30,7 @@ public class OrderServiceTest {
 	@Resource
 	OrderDao orderDao;
 	
-	//@Test
+	@Test
 	public void test() {
 		System.err.println("hello");
 		System.err.println(orderDao.findCustomerById("001"));
@@ -70,7 +70,7 @@ public class OrderServiceTest {
 			System.err.println("雪花id，花费时间：" + (end - start) + "ms");
 		}
 	
-	@Test
+	//@Test
 	public void autoIncreasingIdInsert() {
 		
 		//数据库表设计的自增Id

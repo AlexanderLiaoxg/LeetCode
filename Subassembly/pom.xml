@@ -81,12 +81,6 @@
 		<artifactId>junit</artifactId>
 		<scope>test</scope>
 	</dependency>
-
-	<dependency>
-		<groupId>com.baomidou</groupId>
-		<artifactId>mybatis-plus-boot-starter</artifactId>
-		<version>3.2.0</version>
-	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	<dependency>
@@ -94,11 +88,14 @@
 		<artifactId>mysql-connector-java</artifactId>
 		<version>8.0.18</version>
 	</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
 
+	<!-- Mybatis-plus -->
+
+	<dependency>
+		<groupId>com.baomidou</groupId>
+		<artifactId>mybatis-plus-boot-starter</artifactId>
+		<version>3.4.3</version>
+	</dependency>
 
 	<!-- lombok -->
 	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
