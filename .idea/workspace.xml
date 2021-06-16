@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f520c263-ca7d-4aca-81b7-6582f1576d1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.25326085" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Application._62_圆圈中最后剩下的数字">
     <configuration name="JedisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -151,6 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1618208458325</updated>
     </task>
+    <task id="LOCAL-00001" summary="6.16 提交">
+      <created>1623841952089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623841952089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +208,8 @@
       <path value="$PROJECT_DIR$/Redis" />
       <path value="$PROJECT_DIR$/primary" />
     </ignored-roots>
+    <MESSAGE value="6.16 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.16 提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
