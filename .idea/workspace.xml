@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f520c263-ca7d-4aca-81b7-6582f1576d1c" name="Default Changelist" comment="" />
+    <list default="true" id="f520c263-ca7d-4aca-81b7-6582f1576d1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/primary" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -55,15 +61,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.25326085" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application._56_I数组中数字出现的次数">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="面试指南.MergeSort" />
-      <module name="primary" />
+  <component name="RunManager" selected="Application._62_圆圈中最后剩下的数字">
+    <configuration name="JedisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cbry.primary.JedisDemo" />
+      <module name="Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="面试指南.*" />
+          <option name="PATTERN" value="com.cbry.primary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAnnotationDoit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbry.annotation.MyAnnotationDoit" />
-      <module name="Subassembly" />
+    <configuration name="_15_二进制中1的个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指._15_二进制中1的个数" />
+      <module name="primary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbry.annotation.*" />
+          <option name="PATTERN" value="剑指.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="面试指南.QuickSort" />
+    <configuration name="_32_从上到下打印二叉树II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指._32_从上到下打印二叉树II" />
       <module name="primary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="面试指南.*" />
+          <option name="PATTERN" value="剑指.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,25 +116,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Subassembly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Subassembly" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="_62_圆圈中最后剩下的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指._62_圆圈中最后剩下的数字" />
+      <module name="primary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._62_圆圈中最后剩下的数字" />
+        <item itemvalue="Application._32_从上到下打印二叉树II" />
+        <item itemvalue="Application._15_二进制中1的个数" />
+        <item itemvalue="Application.JedisDemo" />
         <item itemvalue="Application._56_I数组中数字出现的次数" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MyAnnotationDoit" />
-        <item itemvalue="JUnit.All in Subassembly" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\廖兴广\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f520c263-ca7d-4aca-81b7-6582f1576d1c" name="Default Changelist" comment="" />
@@ -138,6 +152,55 @@
       <updated>1618208458325</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="3ce32316-7ac3-42dc-9837-ba584b4b3e21">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/Redis" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3ce32316-7ac3-42dc-9837-ba584b4b3e21" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Multithreading" />
+      <path value="$PROJECT_DIR$/Redis" />
+      <path value="$PROJECT_DIR$/primary" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,9 +230,19 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="queue" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$_62_.ic" NAME="_62_圆圈中最后剩下的数字 Coverage Results" MODIFIED="1623693939632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>剑指.*</FILTER>
+    </SUITE>
   </component>
 </project>
